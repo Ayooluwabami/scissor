@@ -29,7 +29,7 @@ scissor/
 │   ├── app.controller.ts
 │   ├── app.module.ts
 │   ├── app.service.ts
-│   ├── main.ts
+│   ├── index.ts
 ├── test/                   # Test files
 │   ├── e2e/                # End-to-end tests
 │   │   ├── app.e2e-spec.ts
@@ -43,6 +43,6 @@ scissor/
 ├── package-lock.json       # Lock file for package dependencies
 ├── tsconfig.json           # TypeScript configuration
 ├── README.md               # Project documentation
-├── vercel.json             # Vercel deployment configuration
+├── render.yaml
 ├── generateJwtSecret.js    # Script for generating JWT secrets
 ├── project_structure.txt   # Project structure documentation
