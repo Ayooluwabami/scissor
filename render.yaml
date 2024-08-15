@@ -2,16 +2,8 @@ version: "1"
 services:
   - type: web
     name: scissor-backend
-    buildCommand: npm install
+    buildCommand: npm install && npm run build
     startCommand: npm start
     runtime: node
     branch: main
-    autoDeploy: true
-
-  - type: web
-    name: scissor-backend-preview
-    buildCommand: npm install
-    startCommand: npm start
-    runtime: node
-    branch: preview
     autoDeploy: true
