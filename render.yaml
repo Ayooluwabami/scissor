@@ -5,5 +5,5 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm start
     runtime: node
-    branch: main
+    branch: index
     autoDeploy: true
