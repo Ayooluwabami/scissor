@@ -3,7 +3,7 @@ services:
   - type: web
     name: scissor-backend
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: npm run build && npm start
     runtime: node
     branch: main
     autoDeploy: true
