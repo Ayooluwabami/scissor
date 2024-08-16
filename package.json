@@ -2,15 +2,15 @@
   "name": "scissor",
   "version": "1.0.0",
   "description": "A URL shortening service",
-  "main": "dist/main.js",
+  "main": "src/main.ts",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/main.js",
+    "start": "nest start",
     "start:dev": "ts-node src/main.ts",
-  "test": "jest"
+    "test": "jest"
   },
   "keywords": [
     "url",
